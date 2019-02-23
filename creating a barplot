@@ -1,5 +1,5 @@
 # create a bar plot with data 3 5 6 5 5 6 6 2 3 5 2 6 5 3 2 5 3 2 3
 x=c(3,5,6,5,5,6,6,2,3,5,2,6,5,3,2,5,3,2,3)
 table(x)
-barplot(table(x)) #gives only frequencies]
+barplot(table(x)) #gives only frequencies
 barplot(table(x)/length(x)) #gives proportion
